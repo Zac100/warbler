@@ -145,7 +145,7 @@ class User(db.Model):
     def num_of_likes(self):
         """Get num of likes for specific user"""
 
-        num_of_likes = self.favorites.count()
+        num_of_likes = self.favorites.count() or 0
         
         return num_of_likes
 

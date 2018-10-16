@@ -177,6 +177,7 @@ def show_following(user_id):
         return redirect("/")
 
     user = User.query.get_or_404(user_id)
+    import pdb; pdb.set_trace()
     return render_template('users/following.html', user=user)
 
 
