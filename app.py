@@ -48,12 +48,7 @@ def do_login(user):
 
 def do_logout():
     """Logout user."""
-    print('\n\n\n\n', 'boop')
-
-    print('\n\n\n\n', session)
-
-    # import pdb; pdb.set_trace()
-
+    
     if CURR_USER_KEY in session:
         del session[CURR_USER_KEY]
 
@@ -120,8 +115,6 @@ def logout():
     
     do_logout()
 
-    # No flash message 
-
     return redirect("/login")
 
 ##############################################################################
@@ -177,7 +170,6 @@ def show_following(user_id):
         return redirect("/")
 
     user = User.query.get_or_404(user_id)
-    import pdb; pdb.set_trace()
     return render_template('users/following.html', user=user)
 
 
@@ -233,7 +225,6 @@ def profile():
 
     if form.validate_on_submit():
 
-        # FIX THIS!
         user_auth = User.authenticate(username=g.user.username, password=form.data['password'])   
 
         if user_auth:
@@ -341,7 +332,6 @@ def remove_favorite_message(message_id):
 
     user_id = g.user.id
     unfavorite = Favorite.query.filter(Favorite.msg_id==message_id).first()
-    # import pdb; pdb.set_trace()
     db.session.delete(unfavorite)
     db.session.commit()
 
