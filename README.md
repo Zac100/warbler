@@ -1,6 +1,6 @@
-App deployed at : https://warblarblarg.herokuapp.com/
+App deployed at: http://warblervm.herokuapp.com/
 
-<a href="https://warblarblarg.herokuapp.com/"><img src="assets/Warbler_Landing_Page.png" title="WarBlarBlarg" alt="WarBlarBlarg"></a>
+<a href="http://warblervm.herokuapp.com/"><img src="assets/Warbler_Landing_Page.png" title="WarBlarBlarg" alt="WarBlarBlarg"></a>
 
 # Warblar - Twitter Clone 
 
@@ -31,7 +31,8 @@ flask run
 <li>Passwords encrypted and stored in database.</li>
 <li>Full CRUD on user profiles as well as "warbles".</li>
 </ul>
-<img src=”https://github.com/Lulzasaur/Warbler/raw/master/assets/Warbler_Home_Page.png”></img>
+
+<img src=”https://github.com/Lulzasaur/Warbler/raw/master/assets/Warbler_Home_Page.png”>
 
 Team
 | Victor Marks | github.com/silasburger |
