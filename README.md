@@ -33,8 +33,8 @@ flask run
 </ul>
 
 <a href="http://warblervm.herokuapp.com/">
-  <img src=”https://github.com/Lulzasaur/Warbler/raw/master/assets/Warbler_Home_Page.png”></img>
+  <img src=””></img>
  </a>
 
 Team
-| Victor Marks | github.com/silasburger |
+| Victor Marks | https://github.com/victor-marks |
