@@ -1,6 +1,6 @@
 App deployed at: http://warblervm.herokuapp.com/
 
-<a href="http://warblervm.herokuapp.com/"><img src=""></a>
+<a href="http://warblervm.herokuapp.com/"><img src="zacbennett.io/assets/warbler1.png"></a>
 
 # Warblar - Twitter Clone 
 
@@ -33,7 +33,7 @@ flask run
 </ul>
 
 <a href="http://warblervm.herokuapp.com/">
-  <img src=””></img>
+  <img src=”zacbennett.io/assets/warbler2.png”></img>
  </a>
 
 Team
