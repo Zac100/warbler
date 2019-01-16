@@ -1,6 +1,6 @@
 App deployed at: http://warblervm.herokuapp.com/
 
-<a href="http://warblervm.herokuapp.com/"><img src="assets/Warbler_Landing_Page.png" title="WarBlarBlarg" alt="WarBlarBlarg"></a>
+<a href="http://warblervm.herokuapp.com/"><img src=""></a>
 
 # Warblar - Twitter Clone 
 
@@ -32,7 +32,9 @@ flask run
 <li>Full CRUD on user profiles as well as "warbles".</li>
 </ul>
 
-<img src=”https://github.com/Lulzasaur/Warbler/raw/master/assets/Warbler_Home_Page.png”>
+<a href="http://warblervm.herokuapp.com/">
+  <img src=”https://github.com/Lulzasaur/Warbler/raw/master/assets/Warbler_Home_Page.png”></img>
+ </a>
 
 Team
 | Victor Marks | github.com/silasburger |
