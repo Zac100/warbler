@@ -36,5 +36,5 @@ flask run
   <img src=”https://www.zacbennett.io/assets/warbler2.png”></img>
  </a>
 
-Team
-| Victor Marks | https://github.com/victor-marks |
+### Team
+Victor Marks | https://github.com/victor-marks |
